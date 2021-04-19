@@ -24,7 +24,8 @@ export class AppComponent {
             // this.lauchDate = fetchedSatellites[i].launchDate;
             // this.orbitType = fetchedSatellites[i].orbitType;
             // this.operational = fetchedSatellites[i].operational;
-            let newSatellite = new Satellite (this.name = fetchedSatellites[i].name, this.type = fetchedSatellites[i].type,
+            let newSatellite = new Satellite (this.name = fetchedSatellites[i].name, 
+            this.type = fetchedSatellites[i].type,
             this.lauchDate = fetchedSatellites[i].launchDate,
             this.orbitType = fetchedSatellites[i].orbitType,
             this.operational = fetchedSatellites[i].operational);
